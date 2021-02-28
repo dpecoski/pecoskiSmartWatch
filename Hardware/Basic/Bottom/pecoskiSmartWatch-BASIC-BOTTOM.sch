@@ -2121,7 +2121,7 @@ Allows current flow when high potential at base.</description>
 <part name="GND13" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="GND14" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="U$4" library="LinnesLab-DigitalIC" deviceset="AD5171" device="" package3d_urn="urn:adsk.eagle:package:17879439/2"/>
+<part name="AD517" library="LinnesLab-DigitalIC" deviceset="AD5171" device="" package3d_urn="urn:adsk.eagle:package:17879439/2"/>
 <part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
 <part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M"/>
 <part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="2.2n"/>
@@ -2147,7 +2147,7 @@ Allows current flow when high potential at base.</description>
 <part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="U1" library="LinnesLab-DigitalIC" deviceset="AD5242" device="-SO16" package3d_urn="urn:adsk.eagle:package:16423/2"/>
+<part name="AD5242" library="LinnesLab-DigitalIC" deviceset="AD5242" device="-SO16" package3d_urn="urn:adsk.eagle:package:16423/2"/>
 <part name="SUPPLY17" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="GND23" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R19" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
@@ -2160,7 +2160,7 @@ Allows current flow when high potential at base.</description>
 <part name="GND25" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY19" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="OP4" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT"/>
+<part name="TIA" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT"/>
 <part name="C20" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="22u"/>
 <part name="R24" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="22n"/>
@@ -2238,7 +2238,7 @@ which is stacked on top of this board. Accelerometers
 <instance part="GND14" gate="G$1" x="33.02" y="12.7" smashed="yes">
 <attribute name="VALUE" x="33.02" y="12.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$4" gate="G$1" x="213.36" y="17.78" smashed="yes">
+<instance part="AD517" gate="G$1" x="213.36" y="17.78" smashed="yes">
 <attribute name="NAME" x="203.2" y="26.67" size="2.032" layer="95"/>
 <attribute name="VALUE" x="203.2" y="3.81" size="2.032" layer="96"/>
 </instance>
@@ -2346,7 +2346,7 @@ which is stacked on top of this board. Accelerometers
 <instance part="SUPPLY16" gate="G$1" x="129.54" y="27.94" smashed="yes">
 <attribute name="VALUE" x="129.54" y="30.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="144.78" y="17.78" smashed="yes">
+<instance part="AD5242" gate="G$1" x="144.78" y="17.78" smashed="yes">
 <attribute name="NAME" x="137.16" y="29.21" size="2.032" layer="95"/>
 <attribute name="VALUE" x="137.16" y="1.27" size="2.032" layer="96"/>
 </instance>
@@ -2392,11 +2392,11 @@ which is stacked on top of this board. Accelerometers
 <instance part="SUPPLY19" gate="G$1" x="142.24" y="109.22" smashed="yes">
 <attribute name="VALUE" x="142.24" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="OP4" gate="G$1" x="68.58" y="96.52" smashed="yes" rot="MR180">
+<instance part="TIA" gate="G$1" x="68.58" y="96.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="71.12" y="93.345" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="71.12" y="101.6" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="OP4" gate="G$2" x="17.78" y="22.86" smashed="yes">
+<instance part="TIA" gate="G$2" x="17.78" y="22.86" smashed="yes">
 <attribute name="NAME" x="19.05" y="26.67" size="1.778" layer="95"/>
 <attribute name="VALUE" x="19.05" y="17.78" size="1.778" layer="96"/>
 </instance>
@@ -2460,7 +2460,7 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="58.42" y1="93.98" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="G$1" pin="GND"/>
-<pinref part="OP4" gate="G$1" pin="+IN"/>
+<pinref part="TIA" gate="G$1" pin="+IN"/>
 <wire x1="60.96" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2491,13 +2491,13 @@ which is stacked on top of this board. Accelerometers
 <junction x="162.56" y="10.16"/>
 <wire x1="160.02" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 <junction x="162.56" y="7.62"/>
-<pinref part="U1" gate="G$1" pin="VSS"/>
-<pinref part="U1" gate="G$1" pin="DGND"/>
-<pinref part="U1" gate="G$1" pin="AD1"/>
-<pinref part="U1" gate="G$1" pin="AD0"/>
+<pinref part="AD5242" gate="G$1" pin="VSS"/>
+<pinref part="AD5242" gate="G$1" pin="DGND"/>
+<pinref part="AD5242" gate="G$1" pin="AD1"/>
+<pinref part="AD5242" gate="G$1" pin="AD0"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="AD517" gate="G$1" pin="GND"/>
 <wire x1="198.12" y1="10.16" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="10.16" x2="195.58" y2="7.62" width="0.1524" layer="91"/>
@@ -2534,7 +2534,7 @@ which is stacked on top of this board. Accelerometers
 <wire x1="142.24" y1="78.74" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OP4" gate="G$2" pin="V-"/>
+<pinref part="TIA" gate="G$2" pin="V-"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="G$1" pin="GND"/>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -2573,11 +2573,11 @@ which is stacked on top of this board. Accelerometers
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="VDD"/>
+<pinref part="AD517" gate="G$1" pin="VDD"/>
 <wire x1="198.12" y1="22.86" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="195.58" y1="25.4" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="A0"/>
+<pinref part="AD517" gate="G$1" pin="A0"/>
 <wire x1="198.12" y1="12.7" x2="195.58" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="12.7" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
 <junction x="195.58" y="22.86"/>
@@ -2604,8 +2604,8 @@ which is stacked on top of this board. Accelerometers
 <wire x1="129.54" y1="12.7" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <junction x="129.54" y="15.24"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
-<pinref part="U1" gate="G$1" pin="VDD"/>
-<pinref part="U1" gate="G$1" pin="!SHDN"/>
+<pinref part="AD5242" gate="G$1" pin="VDD"/>
+<pinref part="AD5242" gate="G$1" pin="!SHDN"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="V+"/>
@@ -2624,7 +2624,7 @@ which is stacked on top of this board. Accelerometers
 <wire x1="142.24" y1="109.22" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OP4" gate="G$2" pin="V+"/>
+<pinref part="TIA" gate="G$2" pin="V+"/>
 <wire x1="17.78" y1="30.48" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -2655,10 +2655,10 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="132.08" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91"/>
 <label x="127" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="SDA"/>
+<pinref part="AD5242" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="SDA"/>
+<pinref part="AD517" gate="G$1" pin="SDA"/>
 <wire x1="198.12" y1="20.32" x2="193.04" y2="20.32" width="0.1524" layer="91"/>
 <label x="193.04" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2677,10 +2677,10 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="132.08" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
 <label x="127" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="SCL"/>
+<pinref part="AD5242" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="SCL"/>
+<pinref part="AD517" gate="G$1" pin="SCL"/>
 <wire x1="198.12" y1="17.78" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
 <label x="193.04" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2699,7 +2699,7 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="132.08" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="W1"/>
+<pinref part="AD5242" gate="G$1" pin="W1"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -2710,7 +2710,7 @@ which is stacked on top of this board. Accelerometers
 <label x="78.74" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="OP4" gate="G$1" pin="OUT"/>
+<pinref part="TIA" gate="G$1" pin="OUT"/>
 <wire x1="76.2" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <junction x="78.74" y="96.52"/>
 </segment>
@@ -2735,14 +2735,14 @@ which is stacked on top of this board. Accelerometers
 <junction x="58.42" y="106.68"/>
 <label x="55.88" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 <label x="58.42" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="OP4" gate="G$1" pin="-IN"/>
+<pinref part="TIA" gate="G$1" pin="-IN"/>
 <wire x1="60.96" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <junction x="58.42" y="99.06"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
 <label x="127" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="B1"/>
+<pinref part="AD5242" gate="G$1" pin="B1"/>
 </segment>
 </net>
 <net name="LED.C" class="0">
@@ -2796,7 +2796,7 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="160.02" y1="22.86" x2="162.56" y2="22.86" width="0.1524" layer="91"/>
 <label x="162.56" y="22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="W2"/>
+<pinref part="AD5242" gate="G$1" pin="W2"/>
 </segment>
 <segment>
 <pinref part="OP3" gate="G$1" pin="-IN"/>
@@ -2816,36 +2816,36 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="132.08" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <label x="127" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="A1"/>
+<pinref part="AD5242" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="G.A2" class="0">
 <segment>
 <wire x1="160.02" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
 <label x="162.56" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="A2"/>
+<pinref part="AD5242" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="G.O2" class="0">
 <segment>
 <wire x1="160.02" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
 <label x="162.56" y="17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="O2"/>
+<pinref part="AD5242" gate="G$1" pin="O2"/>
 </segment>
 </net>
 <net name="G.O1" class="0">
 <segment>
 <wire x1="132.08" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
 <label x="127" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="O1"/>
+<pinref part="AD5242" gate="G$1" pin="O1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="B"/>
+<pinref part="AD517" gate="G$1" pin="B"/>
 <wire x1="226.06" y1="12.7" x2="228.6" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="12.7" x2="228.6" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="W"/>
+<pinref part="AD517" gate="G$1" pin="W"/>
 <wire x1="228.6" y1="17.78" x2="226.06" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="17.78" x2="231.14" y2="17.78" width="0.1524" layer="91"/>
@@ -2854,7 +2854,7 @@ which is stacked on top of this board. Accelerometers
 </net>
 <net name="D29/LED.CTRL" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A"/>
+<pinref part="AD517" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="22.86" x2="228.6" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="22.86" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
 <label x="228.6" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -2880,7 +2880,7 @@ which is stacked on top of this board. Accelerometers
 <segment>
 <wire x1="160.02" y1="20.32" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
 <label x="162.56" y="20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="B2"/>
+<pinref part="AD5242" gate="G$1" pin="B2"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
