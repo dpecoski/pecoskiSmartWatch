@@ -530,6 +530,54 @@ Description:
 </package>
 </packages>
 </library>
+<library name="LinnesLab-Logos">
+<packages>
+<package name="REV.A">
+<text x="0" y="0" size="0.6096" layer="21">RevA</text>
+</package>
+<package name="OSHW-LOGO-S">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -848,6 +896,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.73" y="34.397" locked="yes" size="0.6604" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="3.73" y="30.968" locked="yes" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="C1" library="LinnesLab-Passives" package="C0603" value="100n" x="28.582625" y="26.461721875" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.614884375" y="26.174703125" size="0.7112" layer="25" rot="R90"/>
+<attribute name="VALUE" x="30.487625" y="25.826721875" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="LOGO1" library="LinnesLab-Logos" package="REV.A" value="REVISION.A" x="4.03098125" y="3.850640625" smashed="yes"/>
+<element name="LOGO2" library="LinnesLab-Logos" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="32.19958125" y="32.362140625" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -926,6 +980,10 @@ design rules under a new name.</description>
 <wire x1="5.0317375" y1="25.374596875" x2="5.0317375" y2="26.037534375" width="0.1524" layer="1"/>
 <wire x1="5.0317375" y1="26.037534375" x2="5.509259375" y2="26.51505625" width="0.1524" layer="1"/>
 <via x="5.509259375" y="26.51505625" extent="1-16" drill="0.35"/>
+<contactref element="C1" pad="2"/>
+<wire x1="28.582625" y1="27.311721875" x2="28.582625" y2="28.897584375" width="0.1524" layer="1"/>
+<wire x1="28.582625" y1="28.897584375" x2="28.5877" y2="28.902659375" width="0.1524" layer="1"/>
+<via x="28.5877" y="28.902659375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="C11" pad="2"/>
@@ -1081,11 +1139,7 @@ design rules under a new name.</description>
 <wire x1="22.438353125" y1="17.5098" x2="22.438353125" y2="19.959690625" width="0.1524" layer="1"/>
 <wire x1="22.438353125" y1="19.959690625" x2="21.7731375" y2="20.62490625" width="0.1524" layer="1"/>
 <wire x1="21.7731375" y1="20.62490625" x2="21.7731375" y2="21.19655625" width="0.1524" layer="1"/>
-<wire x1="21.7731375" y1="21.19655625" x2="25.1968" y2="24.62021875" width="0.1524" layer="1"/>
-<wire x1="30.2759" y1="24.252821875" x2="30.2759" y2="23.340059375" width="0.1524" layer="1"/>
-<wire x1="30.2759" y1="23.340059375" x2="30.242878125" y2="23.3070375" width="0.1524" layer="1"/>
-<wire x1="25.1968" y1="24.62021875" x2="29.908503125" y2="24.62021875" width="0.1524" layer="1"/>
-<wire x1="29.908503125" y1="24.62021875" x2="30.2759" y2="24.252821875" width="0.1524" layer="1"/>
+<wire x1="30.242878125" y1="23.309578125" x2="30.242878125" y2="23.3070375" width="0.1524" layer="1"/>
 <wire x1="30.562915625" y1="6.591296875" x2="31.292796875" y2="6.591296875" width="0.1524" layer="1"/>
 <wire x1="31.292796875" y1="6.591296875" x2="31.709359375" y2="7.007859375" width="0.1524" layer="1"/>
 <via x="31.709359375" y="7.007859375" extent="1-16" drill="0.35"/>
@@ -1103,6 +1157,13 @@ design rules under a new name.</description>
 <via x="23.6728" y="15.621" extent="1-16" drill="0.35"/>
 <wire x1="23.6728" y1="15.621" x2="25.003759375" y2="14.290040625" width="0.1524" layer="16"/>
 <wire x1="25.003759375" y1="14.290040625" x2="25.003759375" y2="14.26998125" width="0.1524" layer="16"/>
+<contactref element="C1" pad="1"/>
+<wire x1="26.188303125" y1="25.611721875" x2="28.582625" y2="25.611721875" width="0.1524" layer="1"/>
+<wire x1="21.7731375" y1="21.19655625" x2="26.188303125" y2="25.611721875" width="0.1524" layer="1"/>
+<wire x1="28.582625" y1="25.611721875" x2="29.793296875" y2="25.611721875" width="0.1524" layer="1"/>
+<wire x1="29.793296875" y1="25.611721875" x2="30.261559375" y2="25.143459375" width="0.1524" layer="1"/>
+<wire x1="30.261559375" y1="25.143459375" x2="30.261559375" y2="23.328259375" width="0.1524" layer="1"/>
+<wire x1="30.261559375" y1="23.328259375" x2="30.242878125" y2="23.309578125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="AD517" pad="7"/>
