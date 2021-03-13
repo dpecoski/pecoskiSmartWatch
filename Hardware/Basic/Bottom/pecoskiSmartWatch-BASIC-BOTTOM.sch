@@ -727,7 +727,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </library>
 <library name="LinnesLab-Passives">
 <packages>
-<package name="C0603">
+<package name="C0603" urn="urn:adsk.eagle:footprint:15661990/1" locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.5766" x2="1.473" y2="0.5766" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.5766" x2="1.473" y2="-0.5766" width="0.0508" layer="39"/>
@@ -737,8 +737,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -892,7 +892,7 @@ type 0207, grid 10 mm</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="C0402">
+<package name="C0402" urn="urn:adsk.eagle:footprint:15402269/1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -908,7 +908,7 @@ type 0207, grid 10 mm</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0805">
+<package name="C0805" urn="urn:adsk.eagle:footprint:15662011/1" locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -918,38 +918,22 @@ type 0207, grid 10 mm</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C0201">
+<package name="C0201" urn="urn:adsk.eagle:footprint:15818462/1" locally_modified="yes">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
 <smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.381" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.016" size="0.7112" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
-</package>
-<package name="C0402-SMALLER">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-0.7174" y1="0.383" x2="0.7174" y2="0.383" width="0.0508" layer="39"/>
-<wire x1="0.7174" y1="0.383" x2="0.7174" y2="-0.383" width="0.0508" layer="39"/>
-<wire x1="0.7174" y1="-0.383" x2="-0.7174" y2="-0.383" width="0.0508" layer="39"/>
-<wire x1="-0.7174" y1="-0.383" x2="-0.7174" y2="0.383" width="0.0508" layer="39"/>
-<smd name="1" x="-0.45" y="0" dx="0.45" dy="0.65" layer="1"/>
-<smd name="2" x="0.45" y="0" dx="0.45" dy="0.65" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <packages3d>
@@ -976,6 +960,30 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:15661989/2" type="model">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0402" urn="urn:adsk.eagle:package:15402268/2" type="model">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0805" urn="urn:adsk.eagle:package:15662010/2" type="model">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<packageinstances>
+<packageinstance name="C0805"/>
+</packageinstances>
+</package3d>
+<package3d name="C0201" urn="urn:adsk.eagle:package:15818461/2" type="model">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<packageinstances>
+<packageinstance name="C0201"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1017,6 +1025,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15402268/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1026,6 +1037,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15661989/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1035,6 +1049,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15662010/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1044,6 +1061,9 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15818461/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1058,15 +1078,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 </technologies>
 </device>
 <device name="C025-030X050" package="C025-030X050">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0402-SMALLER" package="C0402-SMALLER">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6175,6 +6186,269 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LinnesLab-Clocks">
+<packages>
+<package name="2-SMD.NOLEAD.1.2MMTO1.0MM">
+<wire x1="-0.6" y1="0.5" x2="0.6" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.5" x2="0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.5" x2="-0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.5" x2="-0.6" y2="0.5" width="0.127" layer="21"/>
+<text x="-1.68" y="0.75" size="0.7112" layer="25">&gt;Name</text>
+<text x="-1.68" y="-1.365" size="0.7112" layer="27">&gt;Value</text>
+<smd name="P$1" x="-0.5" y="0" dx="1" dy="0.45" layer="1" rot="R90"/>
+<smd name="P$2" x="0.5" y="0" dx="1" dy="0.45" layer="1" rot="R90"/>
+</package>
+<package name="2-SMD.NOLEAD.2.0MMTO1.2MM" urn="urn:adsk.eagle:footprint:18579461/1" locally_modified="yes">
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.127" layer="21"/>
+<text x="-1.8324" y="0.8516" size="0.7112" layer="25">&gt;Name</text>
+<text x="-1.7308" y="-1.6952" size="0.7112" layer="27">&gt;Value</text>
+<smd name="P$1" x="-0.8" y="0" dx="1.3" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$2" x="0.8" y="0" dx="1.3" dy="0.7" layer="1" rot="R90"/>
+</package>
+<package name="4-SMD.NOLEAD" urn="urn:adsk.eagle:footprint:18167574/1">
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.127" layer="21"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-1" x2="-0.28" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.28" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.53" y1="-0.36" x2="-1.53" y2="-1.38" width="0.127" layer="21"/>
+<wire x1="-1.53" y1="-1.38" x2="-0.48" y2="-1.38" width="0.127" layer="21"/>
+<wire x1="-1.24" y1="-0.18" x2="-0.28" y2="-0.18" width="0.127" layer="21"/>
+<wire x1="-0.28" y1="-0.18" x2="-0.28" y2="-1" width="0.127" layer="21"/>
+<smd name="GND2" x="-0.925" y="0.775" dx="1" dy="0.95" layer="1"/>
+<smd name="XTAL2" x="0.925" y="0.775" dx="1" dy="0.95" layer="1"/>
+<smd name="XTAL1" x="-0.925" y="-0.775" dx="1" dy="0.95" layer="1"/>
+<smd name="GND1" x="0.925" y="-0.775" dx="1" dy="0.95" layer="1"/>
+<text x="-1.98" y="1.7" size="0.7112" layer="25">&gt;Name</text>
+<text x="-1.83" y="-2.36" size="0.7112" layer="27">&gt;Value</text>
+</package>
+<package name="4-SMD.NOLEAD.3.25MM-2.5MM" urn="urn:adsk.eagle:footprint:18169899/1">
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.9812" y1="-0.4572" x2="-1.9812" y2="-1.6764" width="0.127" layer="21"/>
+<wire x1="-1.9812" y1="-1.6764" x2="-0.508" y2="-1.6764" width="0.127" layer="21"/>
+<wire x1="-1.4732" y1="-0.254" x2="-0.3302" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.3302" y1="-0.254" x2="-0.3302" y2="-1.0922" width="0.127" layer="21"/>
+<smd name="GND2" x="-1.15" y="0.95" dx="1.3" dy="1.1" layer="1"/>
+<smd name="XTAL2" x="1.15" y="0.95" dx="1.3" dy="1.1" layer="1"/>
+<smd name="XTAL1" x="-1.15" y="-0.95" dx="1.3" dy="1.1" layer="1"/>
+<smd name="GND1" x="1.15" y="-0.95" dx="1.3" dy="1.1" layer="1"/>
+<text x="-1.98" y="1.7" size="0.7112" layer="25">&gt;Name</text>
+<text x="-1.83" y="-2.667" size="0.7112" layer="27">&gt;Value</text>
+</package>
+<package name="HC-49/US" urn="urn:adsk.eagle:footprint:18976547/1">
+<smd name="P$1" x="-4.75" y="0" dx="5.5" dy="2" layer="1"/>
+<smd name="P$2" x="4.75" y="0" dx="5.5" dy="2" layer="1"/>
+<wire x1="-5.85" y1="-2.4" x2="5.85" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="5.85" y1="2.4" x2="-5.85" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="-2.4" x2="-5.85" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="2.4" x2="-5.85" y2="1.4" width="0.127" layer="21"/>
+<wire x1="5.85" y1="2.4" x2="5.85" y2="1.4" width="0.127" layer="21"/>
+<wire x1="5.85" y1="-2.4" x2="5.85" y2="-1.4" width="0.127" layer="21"/>
+<text x="-5.808" y="2.784" size="0.7112" layer="25">&gt;Name</text>
+<text x="-5.808" y="-3.456" size="0.7112" layer="27">&gt;Value</text>
+</package>
+<package name="SO8" urn="urn:adsk.eagle:footprint:18599601/1">
+<description>&lt;b&gt;8-Lead Small Outline IC&lt;/b&gt; (SO-8)&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf</description>
+<wire x1="2" y1="-2.4" x2="-2" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="-2" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-2" y1="2.4" x2="2" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.4" x2="2" y2="-2.4" width="0.2032" layer="21"/>
+<smd name="2" x="-2.65" y="0.635" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="7" x="2.65" y="0.635" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="1" x="-2.65" y="1.905" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="3" x="-2.65" y="-0.635" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="4" x="-2.65" y="-1.905" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="8" x="2.65" y="1.905" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="6" x="2.65" y="-0.635" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<smd name="5" x="2.65" y="-1.905" dx="0.6" dy="1.3" layer="1" rot="R270"/>
+<text x="-1.905" y="2.921" size="0.7112" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.556" size="0.7112" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.79515" y1="1.35495" x2="-2.30495" y2="2.45505" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="0.08495" x2="-2.30495" y2="1.18505" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="-1.18505" x2="-2.30495" y2="-0.08495" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="-2.45505" x2="-2.30495" y2="-1.35495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="-2.45505" x2="2.79515" y2="-1.35495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="-1.18505" x2="2.79515" y2="-0.08495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="0.08495" x2="2.79515" y2="1.18505" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="1.35495" x2="2.79515" y2="2.45505" layer="51" rot="R270"/>
+<circle x="-1.17" y="1.57" radius="0.5" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2-SMD.NOLEAD.2.0MMTO1.2MM" urn="urn:adsk.eagle:package:18579459/2" type="model">
+<description>DFN2, 2.00 X 1.20 X 0.60 mm body
+&lt;p&gt;DFN2 package with body size 2.00 X 1.20 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="2-SMD.NOLEAD.2.0MMTO1.2MM"/>
+</packageinstances>
+</package3d>
+<package3d name="4-SMD.NOLEAD" urn="urn:adsk.eagle:package:18167573/2" type="model">
+<description>Oscillator Corner Concave, 2.50 X 2.00 X 0.60 mm body
+&lt;p&gt;Oscillator Corner Concave package with body size 2.50 X 2.00 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="4-SMD.NOLEAD"/>
+</packageinstances>
+</package3d>
+<package3d name="4-SMD.NOLEAD.3.25MM-2.5MM" urn="urn:adsk.eagle:package:18169898/2" type="model">
+<description>Oscillator Corner Concave, 3.20 X 2.50 X 0.80 mm body
+&lt;p&gt;Oscillator Corner Concave package with body size 3.20 X 2.50 X 0.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="4-SMD.NOLEAD.3.25MM-2.5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="HC-49/US" urn="urn:adsk.eagle:package:18976546/2" type="model">
+<description>Crystal, 11.40 X 4.80 X 3.80 mm body
+&lt;p&gt;Crystal package with body size 11.40 X 4.80 X 3.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HC-49/US"/>
+</packageinstances>
+</package3d>
+<package3d name="SO8" urn="urn:adsk.eagle:package:18599600/2" type="model">
+<description>&lt;b&gt;8-Lead Small Outline IC&lt;/b&gt; (SO-8)&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf</description>
+<packageinstances>
+<packageinstance name="SO8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CRYSTAL">
+<description>&lt;h3&gt;Crystal (no ground pin)&lt;/h3&gt;</description>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="0" y="2.032" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PCF8523">
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<pin name="OSCI" x="-15.24" y="2.54" length="short"/>
+<pin name="OSCO" x="-15.24" y="0" length="short"/>
+<pin name="VBAT" x="-15.24" y="-2.54" length="short" direction="pwr"/>
+<pin name="VSS" x="-15.24" y="-5.08" length="short" direction="pwr"/>
+<pin name="VDD" x="15.24" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="INT/CLKOUT" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="SCL" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="SDA" x="15.24" y="-5.08" length="short" rot="R180"/>
+<text x="-12.7" y="6.35" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRYSTAL" prefix="XTAL" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ECS-.327-12.5-1210-TR" package="2-SMD.NOLEAD.1.2MMTO1.0MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ECS-.327-12.5-12-C-TR" package="2-SMD.NOLEAD.2.0MMTO1.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18579459/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="XC2288CT-ND"/>
+<attribute name="FREQ" value="32.7680KHZ"/>
+<attribute name="LOAD_CAP" value="12.5pF"/>
+</technology>
+</technologies>
+</device>
+<device name=".FH1220004" package="4-SMD.NOLEAD">
+<connects>
+<connect gate="G$1" pin="1" pad="XTAL1"/>
+<connect gate="G$1" pin="2" pad="XTAL2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18167573/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".RH100-8.000-20-3050-EXT-TR" package="4-SMD.NOLEAD.3.25MM-2.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="XTAL1"/>
+<connect gate="G$1" pin="2" pad="XTAL2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18169898/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".9C-7.680MAAJ-T" package="HC-49/US">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18976546/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCF8523" prefix="U">
+<gates>
+<gate name="G$1" symbol="PCF8523" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="INT/CLKOUT" pad="7"/>
+<connect gate="G$1" pin="OSCI" pad="1"/>
+<connect gate="G$1" pin="OSCO" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18599600/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6186,17 +6460,17 @@ Allows current flow when high potential at base.</description>
 </classes>
 <parts>
 <part name="U$3" library="LinnesLab-Connectors" deviceset="PPG.MODULE.2" device=""/>
-<part name="C10" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C10" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND13" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C11" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND14" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="AD517" library="LinnesLab-DigitalIC" deviceset="AD5171" device="" package3d_urn="urn:adsk.eagle:package:17879439/2"/>
 <part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
 <part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M"/>
-<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="2.2n"/>
-<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="2.2u"/>
-<part name="C16" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="2.2u"/>
+<part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2n"/>
+<part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
+<part name="C16" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
 <part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
 <part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R16" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2"/>
@@ -6211,10 +6485,10 @@ Allows current flow when high potential at base.</description>
 <part name="SUPPLY8" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="Q1" library="LinnesLab-DiscreteSemi" deviceset="NPN" device="-GENERIC" package3d_urn="urn:adsk.eagle:package:15662047/2"/>
 <part name="SUPPLY9" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C17" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C17" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND21" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="AD5242" library="LinnesLab-DigitalIC" deviceset="AD5242" device="-SO16" package3d_urn="urn:adsk.eagle:package:16423/2"/>
@@ -6224,32 +6498,46 @@ Allows current flow when high potential at base.</description>
 <part name="R20" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1M"/>
 <part name="R21" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="220k"/>
 <part name="R22" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10M"/>
-<part name="C19" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="2.2n"/>
+<part name="C19" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2n"/>
 <part name="R23" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1M"/>
 <part name="GND24" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND25" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY19" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="TIA" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT"/>
-<part name="C20" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="22u"/>
+<part name="C20" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22u"/>
 <part name="R24" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="22n"/>
+<part name="C21" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22n"/>
 <part name="GND26" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C22" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="IMU1" library="LinnesLab-Sensors" deviceset="LSM6DS3_CAST" device=""/>
 <part name="GND29" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND30" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
 <part name="J1" library="LinnesLab-Connectors" deviceset="CONN_07" device="-1.27MM"/>
 <part name="GND1" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
-<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
+<part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND2" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="LOGO1" library="LinnesLab-Logos" deviceset="REVISION.A" device=""/>
 <part name="LOGO2" library="LinnesLab-Logos" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
+<part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="GND5" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="1u"/>
+<part name="SUPPLY11" library="LinnesLab-Symbols" deviceset="3.3V" device=""/>
+<part name="Y2" library="LinnesLab-Clocks" deviceset="CRYSTAL" device="ECS-.327-12.5-12-C-TR" package3d_urn="urn:adsk.eagle:package:18579459/2" value="32.7680kHz">
+<attribute name="FREQ" value="32.7680KHZ"/>
+</part>
+<part name="U2" library="LinnesLab-Clocks" deviceset="PCF8523" device="" package3d_urn="urn:adsk.eagle:package:18599600/2">
+<attribute name="DIGIKEY" value="568-5306-1-ND"/>
+<attribute name="I2C_ADDRESS" value="0x68h"/>
+<attribute name="MFN" value="PCF8523T/1,118"/>
+<attribute name="MFN_MANUFACTURER" value="NXP USA Inc."/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6318,6 +6606,11 @@ for dynamic gain control.</text>
 <text x="40.64" y="-33.02" size="1.27" layer="97">Castellated IMU breakout</text>
 <text x="25.4" y="40.64" size="2.54" layer="97" font="vector">Vref Generator and Bypass Capacitor</text>
 <text x="63.5" y="149.86" size="7.62" layer="97" font="vector">Pecoski SmartWatch PPG Circuit</text>
+<text x="325.12" y="-40.64" size="1.27" layer="97">I2C Address = 0x68h</text>
+<text x="281.94" y="-40.64" size="1.27" layer="97">Back-up
+battery
+if desired</text>
+<text x="281.94" y="-12.7" size="5.08" layer="97" font="vector" ratio="15">Real-Time Clock</text>
 </plain>
 <instances>
 <instance part="U$3" gate="G$1" x="20.32" y="96.52" smashed="yes"/>
@@ -6561,6 +6854,34 @@ for dynamic gain control.</text>
 </instance>
 <instance part="LOGO1" gate="G$1" x="205.74" y="149.86" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="231.14" y="157.48" smashed="yes"/>
+<instance part="GND3" gate="G$1" x="292.1" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="292.1" y="-40.894" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND5" gate="G$1" x="350.52" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="350.52" y="-38.354" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="327.66" y="-25.4" smashed="yes">
+<attribute name="VALUE" x="327.66" y="-22.606" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C2" gate="G$1" x="350.52" y="-30.48" smashed="yes">
+<attribute name="NAME" x="352.044" y="-27.559" size="1.778" layer="95"/>
+<attribute name="VALUE" x="352.044" y="-32.639" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="350.52" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="350.52" y="-20.066" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="Y2" gate="G$1" x="289.56" y="-27.94" smashed="yes">
+<attribute name="NAME" x="289.56" y="-25.908" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="FREQ" x="289.56" y="-27.94" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="309.88" y="-30.48" smashed="yes">
+<attribute name="NAME" x="297.18" y="-24.13" size="1.778" layer="95"/>
+<attribute name="VALUE" x="297.18" y="-40.64" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="309.88" y="-30.48" size="1.27" layer="96" display="off"/>
+<attribute name="I2C_ADDRESS" x="309.88" y="-30.48" size="1.27" layer="96" display="off"/>
+<attribute name="MFN" x="309.88" y="-30.48" size="1.27" layer="96" display="off"/>
+<attribute name="MFN_MANUFACTURER" x="309.88" y="-30.48" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6674,6 +6995,17 @@ for dynamic gain control.</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="5.08" x2="88.9" y2="7.62" width="0.1524" layer="91" style="longdash"/>
 </segment>
+<segment>
+<wire x1="294.64" y1="-35.56" x2="292.1" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="-38.1" x2="292.1" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="VSS"/>
+</segment>
+<segment>
+<wire x1="350.52" y1="-35.56" x2="350.52" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="G$1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -6764,6 +7096,17 @@ for dynamic gain control.</text>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <wire x1="124.46" y1="-27.94" x2="124.46" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="325.12" y1="-27.94" x2="327.66" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-25.4" x2="327.66" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+<pinref part="U2" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="350.52" y1="-22.86" x2="350.52" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -6786,6 +7129,11 @@ for dynamic gain control.</text>
 <wire x1="121.92" y1="-35.56" x2="127" y2="-35.56" width="0.1524" layer="91"/>
 <label x="127" y="-35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="325.12" y1="-35.56" x2="327.66" y2="-35.56" width="0.1524" layer="91"/>
+<label x="327.66" y="-35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="SDA"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -6807,6 +7155,11 @@ for dynamic gain control.</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="-33.02" x2="127" y2="-33.02" width="0.1524" layer="91"/>
 <label x="127" y="-33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="327.66" y="-33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="325.12" y1="-33.02" x2="327.66" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="A6/TIA" class="0">
@@ -7111,6 +7464,22 @@ for dynamic gain control.</text>
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="294.64" y1="-30.48" x2="284.48" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="-30.48" x2="284.48" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="-27.94" x2="287.02" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="OSCO"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="292.1" y1="-27.94" x2="294.64" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="OSCI"/>
 </segment>
 </net>
 </nets>
